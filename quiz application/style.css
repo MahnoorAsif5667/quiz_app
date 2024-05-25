@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#000;
+}
+body h1{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 36px;
+}
+.mainBox {
+    /* border: 2px solid red; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #51ddfc, #1a90aa);
+  }
+/* /////QUIZ FORM START//// */
+.quizForm {
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 8px;
+    /* background-image: linear-gradient(to right  top, #232526 ,#414345); */
+    border-radius: 8px;
+  }
+  .formHeading {
+    border-bottom: 2px solid white;
+    padding: 8px;
+    color: #000;
+    text-align: center;
+  }
+  .quizForm div {
+    width: 100%;
+  }
+  .quizForm div input {
+    width: 100%;
+    display: block;
+    height: 40px;
+    outline: none;
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .quizForm div input::placeholder {
+    font-family: cursive;
+    color: #0a0a0a;
+  }
+  .quizForm div small {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: large;
+  }
+  .quizForm div button {
+    display: block;
+    margin-left: auto;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #1d976c;
+    color: white;
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .quizForm.hide {
+    display: none;
+  }
+.start{
+    /* width: 800px; */
+    /* margin-left: 280px; */
+    margin-top: 100px;
+    display: flex;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    /* padding: 40px 40px; */
+    background-color: white;
+}
+.pageOne{
+    border: 2px solid wheat;
+    padding: 20px 20px;
+    width: 300px;
+/* margin-left: 200px; */
+border-left: 0;
+/* border-right: 0; */
+border-bottom: 0;
+border-top: 0;
+
+}
+.pageOne h1{
+color: #12E1A6;
+}
+
+.pageOne i{
+    color: yellow;
+    }
+.flex{
+    padding: 50px 50px;
+}
+.flex h4{
+    font-size: 20px;
+}
+.flex p{
+    margin-top: 20px;
+font-size: 18px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+}
+.btn a{
+
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1199px){
+
+    .start{
+    /* width: 700px; */
+    /* margin-left: 260px; */
+    margin-top: 100px;
+    display: flex;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    padding: 40px 40px;
+    background-color: white;
+}
+}
+@media screen and (max-width: 992px){
+
+    .start{
+    /* width: 650px; */
+    /* margin-left: 200px; */
+    margin-top: 54px;
+    display: flex;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    padding: 40px 40px;
+    background-color: white;
+}
+}
+@media screen and (max-width: 858px){
+
+    .start{
+    /* width: 600px; */
+    /* margin-left: 150px; */
+    margin-top: 100px;
+    display: flex;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    padding: 30px 30px;
+    background-color: white;
+}
+}
+
+
+@media screen and (max-width: 768px){
+
+    .start{
+    /* width: 500px; */
+    /* margin-left: 89px; */
+    margin-top: 50px;
+    display: flex;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    padding: 20px 20px;
+    background-color: white;
+}
+.flex p{
+    margin-top: 20px;
+font-size: 16px;
+width: 250px;
+}
+}
+
+@media screen and (max-width: 690px){
+
+    .start{
+        width: 500px;
+        /* margin-left: 85px; */
+        /* margin-top: 100px; */
+        display: flex;
+        /* border: 2px solid black; */
+        /* text-align: center; */
+        padding: 20px 20px;
+        background-color: white;
+    }
+    body h1{
+        margin-top: 60px;
+        font-size: 26px;
+        text-align: center  ;
+    }
+}
+
+
+@media screen and (max-width: 598px){
+
+    .start{
+    /* width: 380px; */
+    /* margin-left: 80px; */
+    /* margin-top: 100px; */
+    display: flex;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    padding: 10px 10px;
+    background-color: white;
+}
+.pageOne{
+    padding: 10px 10px;
+    width: 200px;   
+}
+.pageOne h1{
+    font-size: 25px;
+}
+
+.flex{
+    padding: 20px 20px;
+}
+.flex h4{
+    font-size: 16px;
+}
+.flex p{
+    margin-top: 20px;
+font-size: 16px;
+width: 200px;
+}
+body h1{
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+}
+@media screen and (max-width: 468px){
+
+    .start{
+    width: 320px;
+    /* margin-left: 50px; */
+    margin-top: 100px;
+    display: flex;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    padding: 8px 8px;
+    background-color: white;
+}
+.pageOne{
+    padding: 8px 8px;
+    width: 1880px;   
+}
+.pageOne h1{
+    font-size: 22px;
+}
+
+.flex{
+    padding: 18px 18px;
+}
+.flex h4{
+    font-size: 15px;
+}
+.flex p{
+    margin-top: 20px;
+font-size: 14px;
+width: 200px;
+}
+.btn{
+padding: 5px;
+}
+body h1{
+    margin-top: 60px;
+    font-size: 26px;
+    text-align: center  ;
+}
+}
+
+@media screen and (max-width: 414px){
+
+    .start{
+        /* width: 310px; */
+        /* margin-left: 40px; */
+        padding: 8px 8px;
+    }
+    .pageOne h1{
+        margin-top: 24px;
+    }
+    body h1{
+        margin-top: 60px;
+        font-size: 22px;
+        text-align: center  ;
+    }
+    .flex p{
+        margin-top: 20px;
+    font-size: 13px;
+    width: 200px;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .start{
+        /* width: 300px; */
+        /* margin-left: 35px; */
+    padding: 8px 8px;
+    }
+    body h1{
+        margin-top: 60px;
+        font-size: 20px;
+        text-align: center  ;
+    }
+    .flex p{
+        margin-top: 20px;
+    font-size: 12px;
+    width: 190px;
+    }
+}
+
+.mainStart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

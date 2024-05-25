@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="mainBox">
+    <section class="quizForm">
+        <div class="formHeading">
+            <h2>Student FORM</h2>
+            <p>Please Fill the form</p>
+        </div>
+        <div>
+            <input type="text" id="FormName" placeholder="Your Name..." required>
+            <small id="FormNameError"></small>
+        </div>
+
+
+        <div>
+            <input type="text" id="FormEmail" placeholder="Your Email Address..." required>
+            <small id="FormEmailError"></small>
+        </div>
+
+        <div>
+            <input type="text" id="FormCell" placeholder="Your Cell Number..." required>
+            <small id="FormCellError"></small>
+        </div>
+
+        <div>
+            <input type="text" id="FormSchool" placeholder="Your Institute Name..." required>
+            <small id="FormSchoolError"></small>
+        </div>
+
+        <div>
+            <!-- <a href="./index.html"> -->
+            <button onclick="onSubmit()" id="submitButton">Submit</button>
+        </div>
+
+    </section>
+</main>
+    <script src="app.js"></script>
+
+</body>
+</html>
